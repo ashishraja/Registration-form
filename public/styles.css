@@ -1,0 +1,99 @@
+body{
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    height: 100vh;
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    font-family: 'helvetica neue';
+    justify-content: center;
+}
+.success .content2 .heading{
+    display: flex;
+    flex-direction: column;
+    padding:0 200px;
+    font-size:30px;
+    color:black;
+}
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border:1px solid white;
+    box-shadow: 0px 0px -20px white;    
+    height:max-content;
+    width:max-content;
+    border-radius:5px;
+    box-shadow: 0px 0px 5px white;
+    padding:25px 25px 30px 25px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading{
+    color:#A683E3;
+    text-align: center;
+    margin-bottom:35px;
+}
+.register-input{
+    padding:11px 8px;
+    border:1px solid #d4d4d4;
+    margin:10px 0;
+    width:232px;
+    border-radius: 5px;
+}
+
+.register-input::placeholder{
+    color:#d4d4d4;
+}
+
+.register-input:focus{
+    outline: none !important;
+    border-color: #A683E3;
+    box-shadow: 0 0 10px #A683E3;
+}
+
+.register-btn{
+    color:white;
+    background-color:#A683E3;
+    width:250px;
+    font-size: 16px;
+    border:0px solid white;
+    border-radius: 5px;
+    padding:11px 0;
+    margin:8px 0vw;
+    cursor:pointer;
+}
+
+.register-btn:hover{
+    color:#A683E3;
+    border:1px solid #A683E3;
+    background-color:white;
+}
+
+label{
+    color:#A683E3;
+    font-weight: bold;
+}
+
+.register-box{
+    font-size: 13px;
+    text-align: center;
+    margin:2px;
+}
+a{
+    text-decoration: none;
+    color: #A683E3;
+    font-size: 13px;
+}
+@media screen and (min-width:1024px){
+    .register-input{
+        width:330px;
+    }
+    .register-btn{
+        width:348px;
+    }
+}
